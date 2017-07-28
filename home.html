@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+	<title>Título</title>
+	<link href="styles.css" rel="stylesheet"/>
+	<script src="javascript.js"></script>
+</head>
+<body>
+
+	Eosinófilos:
+	<p id="eos">0</p>
+
+	Bastonetes:
+	<p id="bas">0</p>
+ 
+	Neutrófilos Segmentados:
+	<p id="neu">0</p>
+
+	Linfócitos:
+	<p id="lin">0</p>
+
+	Monócitos:
+	<p id="mon">0</p>
+	
+Total <p id="total">0</p>
+
+<select id="limite" oninput="">
+  <option value="50">50</option>
+  <option value="100">100</option>
+</select>
+
+<input type="button" name="zerar" value="zerar" onclick="zerarContagem();" />
+
+
+
+</body>
+</html>
